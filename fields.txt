@@ -1,0 +1,218 @@
+{
+  "designedbyhehe": {
+    "label": "Designed by @cozysprite | Etsy",
+    "type": "hidden",
+    "group": "⌛ Timer settings"
+  },
+  "turnwheelon": {
+    "type": "checkbox",
+    "label": "Reset timer by interacting with the checkbox!",
+    "value": true,
+    "group": "⌛ Timer settings"
+  },
+  "test1": {
+    "type": "button",
+    "label": "Start Timer",
+    "value": "Start Timer",
+    "group": "⌛ Timer settings"
+  },
+  "test2": {
+    "type": "button",
+    "label": "Stop Timer",
+    "value": "Stop Timer",
+    "group": "⌛ Timer settings"
+  },
+  "test3": {
+    "type": "button",
+    "label": "Reset Timer",
+    "value": "Reset Timer",
+    "group": "⌛ Timer settings"
+  },
+    "loopTimer": {
+    "label": "Loop Timer",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Loop forever",
+      "false": "Stop after one cycle"
+    },
+    "group": "⌛ Timer settings"
+  },
+  "startTime": {
+    "type": "number",
+    "label": "Start time on timer (in minutes)",
+    "value": 0,
+    "group": "⌛ Timer settings"
+  },
+  "breakTime": {
+    "type": "number",
+    "label": "Break time after timer ends (in minutes)",
+    "value": 5,
+    "group": "⌛ Timer settings"
+  },
+  "breakTimerColor": {
+    "type": "colorpicker",
+    "label": "Break Timer Text Color",
+    "value": "#FF0000",
+    "group": "⌛ Timer settings"
+  },
+  "showHours": {
+    "label": "Show/hide hours (for a longer timer)",
+    "type": "dropdown",
+    "value": "true",
+    "options": {
+      "true": "show hours",
+      "false": "hide hours"
+    },
+    "group": "⌛ Timer settings"
+  },
+  "helpone": {
+    "label": "Command Settings",
+    "type": "hidden",
+    "group": "⌛ Timer settings"
+  },
+  "timerStartCommand": {
+    "type": "text",
+    "label": "Timer start command",
+    "value": "!starttimer",
+    "group": "⌛ Timer settings"
+  },
+  "timerEndCommand": {
+    "type": "text",
+    "label": "Timer stop command",
+    "value": "!endtimer",
+    "group": "⌛ Timer settings"
+  },
+  "timerResetCommand": {
+    "type": "text",
+    "label": "Timer reset command",
+    "value": "!resettimer",
+    "group": "⌛ Timer settings"
+  },
+  "eventName": {
+    "type": "text",
+    "label": "Today's Stream Title",
+    "value": "Subathon",
+    "group": "📝 Stream Name & Date"
+  },
+  "donationGoal": {
+    "type": "text",
+    "label": "Today's Date",
+    "value": "Sat 25 May, 2024",
+    "group": "📝 Stream Name & Date"
+  },
+  "dhelp5": {
+    "label": "here are some emojis to copy paste!",
+    "type": "hidden",
+    "group": "📝 Stream Name & Date"
+  },
+  "emojis1": {
+    "label": "🌟⭐🎁🎉💖✨💫👾🎮🌸🎀💗",
+    "type": "hidden",
+    "group": "📝 Stream Name & Date"
+  },
+  "emojis2": {
+    "label": "🧋🍜🌶️🍓👤💐💥🌈☀️💦🫗🌱",
+    "type": "hidden",
+    "group": "📝 Stream Name & Date"
+  },
+  "emojis3": {
+    "label": "✔️💲💌🔒🔓🚫💯💢🔊🔇🔔🔕",
+    "type": "hidden",
+    "group": "📝 Stream Name & Date"
+  },
+  "emojis4": {
+    "label": "❤️🩷🧡💛💚💙🩵💜🖤🩶🤍🤎",
+    "type": "hidden",
+    "group": "📝 Stream Name & Date"
+  },
+  "LowercaseUppercaseUser": {
+    "label": "Lowercase/uppercase Text",
+    "type": "dropdown",
+    "value": "lowercase",
+    "options": {
+      "lowercase": "lowercase",
+      "uppercase": "UPPERCASE",
+      "none": "First letter capitalized"
+    },
+    "group": "🔤 Font settings"
+  },
+  "googleFont": {
+    "type": "googleFont",
+    "label": "Select font",
+    "value": "Montserrat",
+    "group": "🔤 Font settings"
+  },
+  "fontWeight": {
+    "label": "Font boldness",
+    "type": "dropdown",
+    "value": "700",
+    "options": {
+      "100": "Thin",
+      "300": "Light",
+      "400": "Regular",
+      "500": "Medium",
+      "700": "Bold",
+      "900": "Black"
+    },
+    "group": "🔤 Font settings"
+  },
+  "borderRadius": {
+    "type": "number",
+    "label": "Corner roundness (in px)",
+    "value": 0,
+    "group": "🔤 Font settings"
+  },
+  "timerMainFontSize": {
+    "type": "number",
+    "label": "Timer font size (in px)",
+    "value": 50,
+    "group": "🔤 Font settings"
+  },
+  "timerSubFontSize": {
+    "type": "number",
+    "label": "Timer details font size (in px)",
+    "value": 16,
+    "group": "🔤 Font settings"
+  },
+  "BoxGlowToggle": {
+    "label": "🌟 Box glow ON/OFF ",
+    "type": "dropdown",
+    "value": "yes",
+    "options": {
+      "0px 0px 5px": "On",
+      "0px 0px 0px": "Off"
+    },
+    "group": "🎨 Customization"
+  },
+  "timerBorder": {
+    "type": "number",
+    "label": "Timer border (in px)",
+    "value": 0,
+    "group": "🎨 Customization"
+  },
+  "timerColor": {
+    "type": "colorpicker",
+    "label": "Timer text color",
+    "value": "#8e6fad",
+    "group": "🎨 Customization"
+  },
+  "timerGradientColor1": {
+    "type": "colorpicker",
+    "label": "Timer Box Left Gradient Color",
+    "value": "rgb(42, 37, 44)",
+    "group": "🎨 Customization"
+  },
+  "timerGradientColor2": {
+    "type": "colorpicker",
+    "label": "Timer Box Right Gradient Color",
+    "value": "rgb(42, 37, 44)",
+    "group": "🎨 Customization"
+  },
+  "GlowColorTimerBox": {
+    "type": "colorpicker",
+    "label": "Timer Box Glow Color",
+    "value": "rgb(42, 37, 44)",
+    "group": "🎨 Customization"
+  }
+}
